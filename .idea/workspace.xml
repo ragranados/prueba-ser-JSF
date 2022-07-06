@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -25,6 +30,12 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/dao/DocumentoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/dao/DocumentoDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/db/ConexionJPA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/db/ConexionJPA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/entidades/Documento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/entidades/Documento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/repositorio/IDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/repositorio/IDocumento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/dao/DocumentoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/dao/DocumentoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/db/ConexionJPA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/db/ConexionJPA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/entidades/Documento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/entidades/Documento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/repositorio/IDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/repositorio/IDocumento.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -166,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657071664615</updated>
-      <workItem from="1657071667779" duration="4505000" />
+      <workItem from="1657071667779" duration="4806000" />
     </task>
     <servers />
   </component>
