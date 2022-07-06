@@ -3,10 +3,14 @@ package com.prueba.sertracen.test;
 import com.prueba.sertracen.dao.DocumentoDao;
 import com.prueba.sertracen.entidades.Documento;
 import com.prueba.sertracen.repositorio.IDocumento;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class Test {
 
     public static void main(String[] args) {
+        Dotenv dotenv = null;
+
+        dotenv = Dotenv.configure().load();
 
         IDocumento documento = new DocumentoDao();
         Documento d = new Documento();
@@ -20,7 +24,9 @@ public class Test {
 
         DocumentoDao da = new DocumentoDao();
 
-        da.eliminar(2);
+        da.guardar(d);
+
+        System.out.println(dotenv.get("PRUEBA"));
     }
 
 }

@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="" />
+    <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +42,7 @@
       <recent name="C:\Users\rau3\Downloads\sertracen\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.1.1.Final">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.prueba.sertracen.test.Test" />
       <module name="sertracen" />
@@ -151,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657071664615</updated>
-      <workItem from="1657071667779" duration="5156000" />
+      <workItem from="1657071667779" duration="5873000" />
     </task>
     <servers />
   </component>
