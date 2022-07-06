@@ -1,8 +1,8 @@
 package com.prueba.sertracen.test;
 
-import com.prueba.sertracen.dao.DocumentoDao;
-import com.prueba.sertracen.entidades.Documento;
-import com.prueba.sertracen.repositorio.IDocumento;
+import com.prueba.sertracen.servicios.DocumentoDao;
+import com.prueba.sertracen.modelos.Documento;
+import com.prueba.sertracen.interfaces.IDocumento;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class Test {

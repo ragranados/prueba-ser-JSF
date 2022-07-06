@@ -10,16 +10,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_el_jakarta_el_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_enterprise_jakarta_enterprise_cdi_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_enterprise_jakarta_enterprise_lang_model_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_interceptor_jakarta_interceptor_api_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_ejb_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ActualizarDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/CrearDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/EliminarDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ListarDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vistas/Crear.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vistas/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sertracen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sertracen_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sertracen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sertracen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/dao/DocumentoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/servicios/DocumentoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/entidades/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/modelos/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/repositorio/IDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/interfaces/IDocumento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/dao/DocumentoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/entidades/Documento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/repositorio/IDocumento.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/dao/DocumentoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/entidades/Documento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/repositorio/IDocumento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,13 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,7 +194,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657071664615</updated>
-      <workItem from="1657071667779" duration="5873000" />
+      <workItem from="1657071667779" duration="6198000" />
+      <workItem from="1657124190882" duration="7744000" />
     </task>
     <servers />
   </component>
@@ -174,5 +212,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
