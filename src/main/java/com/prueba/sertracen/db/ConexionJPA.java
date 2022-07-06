@@ -24,6 +24,7 @@ public class ConexionJPA {
     public static void desconexion(EntityManager em){
         if(em != null){
             em.close();
+            emf.close();
         }
     }
 

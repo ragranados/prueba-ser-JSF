@@ -14,5 +14,5 @@ public interface IDocumento {
 
     Documento findById(int id);
 
-    Documento eliminar(Documento d);
+    void eliminar(int d);
 }
