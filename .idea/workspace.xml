@@ -10,8 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_ejb_api_3_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sertracen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sertracen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ActualizarDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ActualizarDocumento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ListarDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ListarDocumento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/interfaces/IDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/interfaces/IDocumento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/modelos/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/modelos/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/servicios/DocumentoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/servicios/DocumentoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vistas/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vistas/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/controladores/ListarDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/controladores/ListarDocumento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/interfaces/IDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/interfaces/IDocumento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/modelos/Documento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/modelos/Documento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/servicios/DocumentoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/servicios/DocumentoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/controladores/ListarDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/controladores/ListarDocumento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/interfaces/IDocumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/interfaces/IDocumento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/modelos/Documento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/modelos/Documento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/servicios/DocumentoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/servicios/DocumentoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/vistas/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/vistas/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jsf" />
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -57,19 +90,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,7 +185,9 @@
       <option name="presentableId" value="Default" />
       <updated>1657071664615</updated>
       <workItem from="1657071667779" duration="6198000" />
-      <workItem from="1657124190882" duration="8926000" />
+      <workItem from="1657124190882" duration="14042000" />
+      <workItem from="1657148253681" duration="11416000" />
+      <workItem from="1657219335371" duration="634000" />
     </task>
     <servers />
   </component>

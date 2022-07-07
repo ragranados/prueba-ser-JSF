@@ -5,7 +5,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-import javax.ejb.EJB;
+//import javax.ejb.EJB;
 import javax.faces.view.ViewScoped;
 import java.io.Serializable;
 

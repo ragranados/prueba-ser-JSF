@@ -4,10 +4,17 @@ import com.prueba.sertracen.modelos.Documento;
 import com.prueba.sertracen.servicios.DocumentoDao;
 import jakarta.annotation.PostConstruct;
 import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
+import javax.faces.view.ViewScoped;
+import java.io.Serializable;
 import java.util.List;
 
-public class ListarDocumento {
+@Named
+@ViewScoped
+public class ListarDocumento implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private List<Documento> documentos;
 
@@ -20,6 +27,7 @@ public class ListarDocumento {
     }
 
     public List<Documento> getDocumentos() {
+        System.out.println(documentos);
         return documentos;
     }
 

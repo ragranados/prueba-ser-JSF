@@ -7,13 +7,18 @@
         <class>com.prueba.sertracen.modelos.Documento</class>
 
         <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebasertracen" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="trollface12" />
+
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebasertracen" />
             <property name="jakarta.persistence.jdbc.user" value="root" />
             <property name="jakarta.persistence.jdbc.password" value="trollface12" />
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/pruebasertracen"/>
-            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
         </properties>
     </persistence-unit>
 </persistence>

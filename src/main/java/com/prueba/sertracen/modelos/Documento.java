@@ -2,8 +2,10 @@ package com.prueba.sertracen.modelos;
 
 import jakarta.persistence.*;
 
+import javax.enterprise.inject.Model;
 import java.util.Objects;
 
+//@Model
 @Entity
 @Table(name = "documento", schema = "pruebasertracen")
 @NamedQueries({
@@ -74,6 +76,19 @@ public class Documento {
     }
 
     public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public Documento(){
+
+    }
+
+    public Documento(int id, String nombre, String apellido, int edad, String email, String foto) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.email = email;
         this.foto = foto;
     }
 

@@ -3,7 +3,9 @@ package com.prueba.sertracen.servicios;
 import com.prueba.sertracen.db.ConexionJPA;
 import com.prueba.sertracen.modelos.Documento;
 import com.prueba.sertracen.interfaces.IDocumento;
+import jakarta.annotation.PostConstruct;
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
 
 import javax.ejb.Local;
@@ -11,18 +13,17 @@ import javax.ejb.Stateless;
 import java.util.List;
 
 @Stateless
-public class DocumentoDao implements IDocumento {
+public class DocumentoDao  {
 
+    @PersistenceContext
     private EntityManager em = null;
 
     public DocumentoDao() {
         em = ConexionJPA.createEntityManager();
     }
 
-    @Override
+    //@Override
     public Documento guardar(Documento d) {
-
-
 
         try {
             em.getTransaction().begin();
@@ -36,7 +37,7 @@ public class DocumentoDao implements IDocumento {
         return d;
     }
 
-    @Override
+    //@Override
     public Documento actualizar(Documento d) {
 
         try {
@@ -57,14 +58,18 @@ public class DocumentoDao implements IDocumento {
         return d;
     }
 
-    @Override
+   // @Override
     public List<Documento> documentos() {
+
+        em = ConexionJPA.createEntityManager();
 
         List<Documento> listaDocumentos = null;
 
         try {
 
             Query query = em.createNamedQuery("Documento.findAll");
+
+            //Query query = em.createQuery("SELECT c FROM Documento c", Documento.class).getResultList();
 
             listaDocumentos = query.getResultList();
 
@@ -76,7 +81,7 @@ public class DocumentoDao implements IDocumento {
 
     }
 
-    @Override
+    //@Override
     public Documento findById(int id) {
 
         try{
@@ -89,7 +94,7 @@ public class DocumentoDao implements IDocumento {
 
     }
 
-    @Override
+    //@Override
     public void eliminar(int id) {
 
         try{

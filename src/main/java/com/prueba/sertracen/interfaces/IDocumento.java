@@ -5,7 +5,7 @@ import com.prueba.sertracen.modelos.Documento;
 import javax.ejb.Local;
 import java.util.List;
 
-@Local
+//@Local
 public interface IDocumento {
 
     Documento guardar(Documento d);
