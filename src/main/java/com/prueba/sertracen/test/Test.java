@@ -8,11 +8,11 @@ import io.github.cdimascio.dotenv.Dotenv;
 public class Test {
 
     public static void main(String[] args) {
-        /*Dotenv dotenv = null;
+        Dotenv dotenv = null;
 
         dotenv = Dotenv.configure().load();
 
-        IDocumento documento = new DocumentoDao();
+        DocumentoDao documento = new DocumentoDao();
         Documento d = new Documento();
 
         //d.setId(2);
@@ -26,7 +26,7 @@ public class Test {
 
         for (Documento d1: da.documentos()) {
             System.out.println(d1.getApellido());
-        }*/
+        }
     }
 
 }
