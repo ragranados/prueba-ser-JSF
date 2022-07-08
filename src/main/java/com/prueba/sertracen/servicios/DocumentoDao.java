@@ -2,18 +2,17 @@ package com.prueba.sertracen.servicios;
 
 import com.prueba.sertracen.db.ConexionJPA;
 import com.prueba.sertracen.modelos.Documento;
-import com.prueba.sertracen.interfaces.IDocumento;
-import jakarta.annotation.PostConstruct;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.Query;
 
-import javax.ejb.Local;
-import javax.ejb.Stateless;
+//import javax.persistence.*;
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+import jakarta.persistence.*;
+
 import java.util.List;
 
+@LocalBean
 @Stateless
-public class DocumentoDao  {
+public class DocumentoDao {
 
     @PersistenceContext
     private EntityManager em = null;
@@ -58,7 +57,7 @@ public class DocumentoDao  {
         return d;
     }
 
-   // @Override
+    //@Override
     public List<Documento> documentos() {
 
         em = ConexionJPA.createEntityManager();

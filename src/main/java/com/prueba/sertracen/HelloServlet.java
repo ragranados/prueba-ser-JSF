@@ -1,10 +1,15 @@
 package com.prueba.sertracen;
 
 import java.io.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.faces.annotation.FacesConfig;
+import jakarta.servlet.annotation.*;
+import jakarta.servlet.http.*;
+
+//@FacesConfig
+//@ApplicationScoped
+@WebServlet(name = "HttpServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
 

@@ -1,8 +1,7 @@
 package com.prueba.sertracen.db;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+//import javax.persistence.*;
+import jakarta.persistence.*;
 
 public class ConexionJPA {
 
@@ -12,17 +11,18 @@ public class ConexionJPA {
 
         try {
             if (emf == null) {
+                System.out.println("entra");
                 emf = Persistence.createEntityManagerFactory("pruebaserPU");
             }
         } catch (Exception e) {
-            System.out.println("Error de conexion: " + e.getMessage());
+            System.out.println("Error de conexion xd: " + e.getMessage());
         }
 
         return emf.createEntityManager();
     }
 
-    public static void desconexion(EntityManager em){
-        if(em != null){
+    public static void desconexion(EntityManager em) {
+        if (em != null) {
             em.close();
             emf.close();
         }

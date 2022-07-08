@@ -5,6 +5,6 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-
+<a href="index.xhtml">Hello Servlet</a>
 </body>
 </html>

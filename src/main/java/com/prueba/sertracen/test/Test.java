@@ -2,17 +2,12 @@ package com.prueba.sertracen.test;
 
 import com.prueba.sertracen.servicios.DocumentoDao;
 import com.prueba.sertracen.modelos.Documento;
-import com.prueba.sertracen.interfaces.IDocumento;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class Test {
 
     public static void main(String[] args) {
-        Dotenv dotenv = null;
 
-        dotenv = Dotenv.configure().load();
-
-        DocumentoDao documento = new DocumentoDao();
         Documento d = new Documento();
 
         //d.setId(2);

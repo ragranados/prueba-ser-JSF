@@ -1,11 +1,12 @@
 package com.prueba.sertracen.modelos;
 
+import jakarta.enterprise.inject.Model;
 import jakarta.persistence.*;
 
-import javax.enterprise.inject.Model;
+
 import java.util.Objects;
 
-//@Model
+@Model
 @Entity
 @Table(name = "documento", schema = "pruebasertracen")
 @NamedQueries({

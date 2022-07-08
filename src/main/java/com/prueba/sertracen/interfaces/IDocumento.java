@@ -2,7 +2,6 @@ package com.prueba.sertracen.interfaces;
 
 import com.prueba.sertracen.modelos.Documento;
 
-import javax.ejb.Local;
 import java.util.List;
 
 //@Local

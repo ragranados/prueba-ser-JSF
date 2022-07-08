@@ -3,10 +3,12 @@ package com.prueba.sertracen.controladores;
 import com.prueba.sertracen.modelos.Documento;
 import com.prueba.sertracen.servicios.DocumentoDao;
 import jakarta.annotation.PostConstruct;
+import jakarta.faces.application.FacesMessage;
+import jakarta.faces.context.FacesContext;
+import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-import javax.faces.view.ViewScoped;
 import java.io.Serializable;
 import java.util.List;
 
@@ -14,20 +16,35 @@ import java.util.List;
 @ViewScoped
 public class ListarDocumento implements Serializable {
 
-    private static final long serialVersionUID = 1L;
-
     private List<Documento> documentos;
+
+    private Documento documento = new Documento();
 
     @Inject
     private DocumentoDao documentoDao;
 
     @PostConstruct
     public void init(){
+        //FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Update successful"));
         this.documentos = documentoDao.documentos();
     }
 
+    public void update() {
+
+        //FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Update successful"));
+    }
+
+    public void agregar() {
+
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Update successful"));
+    }
+
+    public ListarDocumento() {
+
+    }
+
     public List<Documento> getDocumentos() {
-        System.out.println(documentos);
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Update successful"));
         return documentos;
     }
 
@@ -41,5 +58,13 @@ public class ListarDocumento implements Serializable {
 
     public void setDocumentoDao(DocumentoDao documentoDao) {
         this.documentoDao = documentoDao;
+    }
+
+    public Documento getDocumento() {
+        return documento;
+    }
+
+    public void setDocumento(Documento documento) {
+        this.documento = documento;
     }
 }

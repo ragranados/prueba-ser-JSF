@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+
+    <h:form id="add">
+
+        <h:panelGrid columns="3" cellpadding="5" style="margin: 0 auto;">
+
+            <p:outputLabel value="Nombre"/>
+            <p:inputText id="Nombre"/>
+            <!-- <p:message for="firstName"/> -->
+
+            <p:outputLabel value="Apellidos"/>
+            <p:inputText id="Apellidos"/>
+            <!-- <p:message for="firstName"/> -->
+
+            <p:outputLabel value="Email"/>
+            <p:inputText id="Email"/>
+            <!-- <p:message for="firstName"/> -->
+
+            <p:outputLabel value="Edad" />
+            <p:inputText id="Edad"/>
+            <!-- <p:message for="firstName"/> -->
+
+            <p:outputLabel value="Fotografía"/>
+            <h:inputFile id="fileToUpload" required="true" requiredMessage="xd"/>
+
+            <p:commandButton tyleClass="ui-priority-primary" action="#{listarDocumento.agregar}" value="Agregar" style="float: inside">
+            </p:commandButton>
+
+
+
+        </h:panelGrid>
+
+    </h:form>
+
+    <h:form id="documentos">
+
+        <p:growl id="growl" sticky="true"/>
+
+        <p:dataTable id="listaDocumentos" var="documento" value="#{listarDocumento.documentos}" lazy="true">
+
+            <p:column headerText="Id">
+                <h:outputText value="#{documento.id}"/>
+            </p:column>
+
+            <p:column headerText="Nombre">
+                <p:inputText id="nombre" value="#{documento.nombre}"/>
+            </p:column>
+
+            <p:column headerText="Apellidos">
+                <p:inputText id="apellidos" value="#{documento.apellido}"/>
+            </p:column>
+
+            <p:column headerText="Edad">
+                <p:inputText id="edad" value="#{documento.edad}"/>
+            </p:column>
+
+            <p:column headerText="Correo">
+                <p:inputText id="email" value="#{documento.email}"/>
+            </p:column>
+
+            <p:column headerText="Foto">
+                <p:inputText id="foto" value="#{documento.foto}"/>
+            </p:column>
+
+        </p:dataTable>
+
+        <!--<p:commandButton style="float: right" id="save" value="Save" tyleClass="ui-priority-primary"
+                         action="#{listarDocumento.update}" icon="ui-icon-disk" update="growl">
+            <f:ajax execute="@form" render="@form"/>
+        </p:commandButton>-->
+
+    </h:form>
+</f:view>
+</html>
