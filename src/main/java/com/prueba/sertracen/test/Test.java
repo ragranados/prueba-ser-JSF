@@ -2,7 +2,6 @@ package com.prueba.sertracen.test;
 
 import com.prueba.sertracen.servicios.DocumentoDao;
 import com.prueba.sertracen.modelos.Documento;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class Test {
 
@@ -19,9 +18,11 @@ public class Test {
 
         DocumentoDao da = new DocumentoDao();
 
-        for (Documento d1: da.documentos()) {
+        da.guardar(d);
+
+        /*for (Documento d1: da.documentos()) {
             System.out.println(d1.getApellido());
-        }
+        }*/
     }
 
 }

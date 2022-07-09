@@ -10,31 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b40a5e-06cf-4603-a534-042af116acab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_faces_jakarta_faces_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_api_9_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_web_api_9_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/sertracen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sertracen_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_faces_javax_faces_api_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_cdimascio_java_dotenv_5_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sertracen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sertracen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ActualizarDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ActualizarDocumento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ListarDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/controladores/ListarDocumento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/db/ConexionJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/db/ConexionJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/interfaces/IDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/interfaces/IDocumento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/modelos/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/modelos/Documento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/servicios/DocumentoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/servicios/DocumentoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prueba/sertracen/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vistas/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/HelloServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/controladores/ActualizarDocumento.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/controladores/CrearDocumento.class" beforeDir="false" />
@@ -45,13 +38,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/modelos/Documento.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/servicios/DocumentoDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prueba/sertracen/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT.war/WEB-INF/classes/com/prueba/sertracen/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/HelloServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/controladores/ActualizarDocumento.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/classes/com/prueba/sertracen/controladores/CrearDocumento.class" beforeDir="false" />
@@ -71,13 +59,7 @@
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-6.1.1.Final.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-4.0.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-2.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.el-api-5.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.enterprise.cdi-api-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.enterprise.lang-model-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-api-2.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-api-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.interceptor-api-2.1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.persistence-api-3.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.transaction-api-2.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-3.0.1.jar" beforeDir="false" />
@@ -95,8 +77,8 @@
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/lib/txw2-3.0.2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/index.xhtml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/vistas/Crear.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sertracen-1.0-SNAPSHOT/vistas/index.xhtml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +129,7 @@
       <recent name="C:\Users\rau3\Downloads\sertracen\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.1.1.Final">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.prueba.sertracen.test.Test" />
       <module name="sertracen" />
@@ -161,15 +143,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="GlassFish 6.2.5" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 6.2.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sertracen:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sertracen:war" />
+        </option>
       </method>
     </configuration>
     <configuration name="JBoss/WildFly 24.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 24.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
@@ -314,13 +356,91 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9e3833fe-68c5-46c0-8b5e-e2845cf1f172" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57473" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sertracen_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sertracen_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="sertracen:war exploded">
+        <artifact name="sertracen:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/sertracen_war_exploded" />
+            <option name="CONTEXT_PATH" value="/sertracen_war" />
           </settings>
         </artifact>
       </deployment>
@@ -398,15 +518,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="sertracen:war exploded" />
+          <artifact name="sertracen:war" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
+      <item itemvalue="GlassFish Server.GlassFish 6.2.5" />
       <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 24.0.1.Final" />
       <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.1.1.Final" />
       <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="TomEE Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -438,6 +560,11 @@
       <workItem from="1657238682690" duration="2609000" />
       <workItem from="1657241359270" duration="10482000" />
       <workItem from="1657285797396" duration="9984000" />
+      <workItem from="1657300735190" duration="129000" />
+      <workItem from="1657301786066" duration="7594000" />
+      <workItem from="1657313088514" duration="3741000" />
+      <workItem from="1657329059499" duration="316000" />
+      <workItem from="1657331356149" duration="16000" />
     </task>
     <servers />
   </component>

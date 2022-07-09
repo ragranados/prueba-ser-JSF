@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sertracen" target="1.8" />
+      <module name="sertracen" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

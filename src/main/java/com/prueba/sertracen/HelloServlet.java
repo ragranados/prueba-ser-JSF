@@ -9,7 +9,7 @@ import jakarta.servlet.http.*;
 
 //@FacesConfig
 //@ApplicationScoped
-@WebServlet(name = "HttpServlet", value = "/hello-servlet")
+@WebServlet
 public class HelloServlet extends HttpServlet {
     private String message;
 

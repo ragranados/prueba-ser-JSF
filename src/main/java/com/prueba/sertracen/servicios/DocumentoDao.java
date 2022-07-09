@@ -8,13 +8,12 @@ import jakarta.ejb.LocalBean;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.util.List;
 
-@LocalBean
-@Stateless
+//@LocalBean
 public class DocumentoDao {
 
-    @PersistenceContext
     private EntityManager em = null;
 
     public DocumentoDao() {

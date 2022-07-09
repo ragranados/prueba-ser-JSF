@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 
 public class ConexionJPA {
 
+    @PersistenceUnit(unitName = "pruebaserPU")
     private static EntityManagerFactory emf = null;
 
     public static EntityManager createEntityManager() {

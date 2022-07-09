@@ -21,7 +21,7 @@ public class ListarDocumento implements Serializable {
     private Documento documento = new Documento();
 
     @Inject
-    private DocumentoDao documentoDao;
+    transient private DocumentoDao documentoDao;
 
     @PostConstruct
     public void init(){
